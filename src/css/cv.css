@@ -1,0 +1,112 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px; 
+}
+
+ul
+{
+    margin: 0;
+}
+
+li
+{
+    margin: 0 0 5px 0;
+}
+
+.main
+{
+    margin: 0px auto;
+    max-width: 16cm;
+}
+
+.main-name
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.right
+{
+    float: right;
+}
+
+.title
+{
+    text-align: center;
+    /*border-bottom: 2px solid black;*/
+    padding: 5px 0px;
+}
+
+.block
+{
+    display: block;
+    /*border-bottom: 1px solid black;*/
+    padding: 5px 0px;
+}
+
+
+.content
+{
+    display: inline-block;
+    width: 100%;
+    /*background: #9c9;*/
+}
+
+.headers
+{
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    /*background: #900;*/
+    vertical-align: top;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.inner-block
+{
+   display: inline-block;
+   width: 100%;
+   margin-bottom: 6px;
+}
+
+.years
+{
+    display: inline-block;
+    float: left;
+    width: 14%;
+    font-weight: 700;
+    /*background: #900;*/
+}
+
+.icontent
+{
+    display: inline-block;
+    float: right;
+    width: 85%;
+    /*background: #0f0;*/
+}
+
+.reference
+{
+    display: inline-block;
+    width: 30%;
+}
+
+.no-break
+{
+    page-break-inside: avoid; 
+}
+
+.pagebreak 
+{ 
+    page-break-before: always; 
+} 
+
+p 
+{ 
+    margin:0 
+}

@@ -1,0 +1,24 @@
+{
+  "name": "mloecher_11ty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "markdown-it": "^12.2.0",
+    "markdown-it-attrs": "^4.0.0",
+    "moment": "^2.29.1"
+  },
+  "dependencies": {
+    "katex": "^0.13.18",
+    "markdown-it-texmath": "^0.9.1"
+  }
+}

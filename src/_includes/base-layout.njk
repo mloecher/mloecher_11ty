@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <title>Mike Loecher</title>
+
+  <link rel="stylesheet" href="/css/site.css">
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
+    />
+
+    <!-- Save to local and modify (or just use) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/markdown-it-texmath/css/texmath.min.css"
+    />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"> 
+
+</head> 
+<body> 
+
+  <header>
+    <a href="/" class="link--home">Mike Loecher</a>
+    <a href="/" class="link--nav">Home</a>
+    <a href="/Blog" class="link--nav">Blog</a>
+    <a href="/CV" class="link--nav">CV</a>
+    <a href="https://scholar.google.com/citations?user=U1u4zVcAAAAJ&hl=en" class="link--nav">Scholar</a>
+  </header> 
+
+  <main> 
+    {{ content | safe }}
+  </main> 
+
+  {# <footer>Site Footer</footer>  #}
+
+</body> 
+</html>

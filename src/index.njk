@@ -1,0 +1,27 @@
+---
+layout: base-layout.njk
+pagination:
+  data: collections.summary
+  size: 50
+  reverse: true
+  alias: summaries
+---
+
+<img src="images/me1_500px.png" class="img--me">
+
+Welcome! 
+<br><br>
+I am a research scientist at Stanford, primarily working in: MRI, image processing, machine learning, and algorithm/optimization design.  
+<br><br>
+Below you will find summaries of some of my major projects:
+
+{% for summary in summaries %}
+  <article>
+  <br>
+    <h2>
+      {{ summary.data.title }}
+    </h2>
+    {# <time datetime="{{ summary.date | dateIso }}">{{ summary.date | dateReadable }}</time> #}
+    {{ summary.templateContent | safe }}
+  </article>
+{% endfor %}
