@@ -17,7 +17,7 @@ I moved to a python server where more complicated algorithms could be implemente
 
 The server loads a raw 4D-Flow data set and computes an isosurface from the angiogram and sends it to the client.  The client can change the thresholding for the isosurface, which requests a new isosurface from the server, allowing different angiogram thresholds to be rendered.  Additionally, the three.js rendering transparency can be controlled, to better see what’s going on with streamlines.
 
-<img src = "/images/a1.gif" width="600px"/>
+<img src = "/images/a1.gif" class="responsive"/>
 
 ## Plane Placement ##
 
@@ -33,7 +33,7 @@ To make this more efficient, I developed an automatic algorithm in this demo.  I
 
 It seems to work really well, in fact I use a version of this algorithm for almost all of my flow processing without any problems.
 
-<img src = "/images/a2.gif" width="600px"/>
+<img src = "/images/a2.gif" class="responsive"/>
 
 ## Streamlines ##
 
@@ -41,7 +41,7 @@ Streamlines can be generated during plane placement, where the plane is used as 
 
 The client sends the request during plane creation, and then on the server a standard 4th order Runge-Kutta interpolation is used to trace the path that a particle would take in the measure velocity field.  The streamlines are then sent back to the client to render.  Right now, they are just colored by distance with a rainbow colormap but can be easily switched to a speed-based colormap as is normally used.
 
-<img src = "/images/a3.gif" width="600px"/>
+<img src = "/images/a3.gif" class="responsive"/>
 
 ## Future ##
 

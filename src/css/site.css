@@ -35,6 +35,11 @@ header > a:hover {
     text-decoration: underline;
 }
 
+.responsive {
+    width: 95%;
+    height: auto;
+}
+
 .link--home {
     flex-grow: 1;
     font-size: 26px;
